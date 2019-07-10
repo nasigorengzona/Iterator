@@ -23,7 +23,6 @@ public class DateRange implements Iterable<LocalDate> {
         	if(!daterange.contains(e))return false;
         }
         return true;
-    	//return dr.contains(daterange.from) || dr.contains(daterange.to) || (daterange.to.isBefore(this.to) && daterange.from.isAfter(this.from));
     }
     
 	public Iterator iterator() {
